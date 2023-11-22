@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="img/icon.ico">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="contenido-header">
+        <header>
+            <div class="logo">
+                <a href="#"><img src="img/icon.jpg" alt="icon"></a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenido-img">
+                <img src="img/Perfil.jpg" alt="">
+            </div>
+            <h1>Cristian Elias</h1>
+            <h2>Ingeniero en Sistemas</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/cristian-elias-cruz-flores-5b4445209"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="sobremi" class="sobremi">
+        <div id="sobremi" class="sobremi">
+            <div class="contenido-seccion">
+                <p><span>Hola, soy Cristian</span>
+
+                    Hola, soy Cristian, un desarrollador de <i>software</i> apasionado por crear soluciones innovadoras
+                    y eficientes. Tengo experiencia en diferentes lenguajes de programación, frameworks y herramientas,
+                    y me gusta estar al día de las últimas tendencias y tecnologías. Me considero una persona creativa,
+                    responsable y comprometida con la calidad de mi trabajo. En mi portafolio web podrás ver algunos de
+                    los proyectos que he realizado y conocer más sobre mí. Espero que te guste mi perfil y que podamos
+                    colaborar en el futuro. 😊</p>
+
+                <div class="fila">
+
+                    <div class="col">
+                        <h3>Datos personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                <span>16/02/1996</span>
+                            </li>
+                            <li>
+                                <strong>Teléfono</strong>
+                                <span>55-4906-1458</span>
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                <span>CrizCruz1400@gmail.com</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenedor-intereses">
+                            <div class="interes">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>JUEGOS</span>
+                            </div>
+
+                            <div class="interes">
+                                <i class="fa-solid fa-headphones"></i>
+                                <span>MÚSICA</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-person-hiking"></i>
+                                <span>DEPORTE</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-camera"></i>
+                                <span>FOTOS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-pencil"></i>
+                                <span>DIBUJO</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-code"></i>
+                                <span>DESARROLLO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button>
+                    <a href="https://drive.google.com/file/d/1NLoN10six8SHDVMJDiu2DzEYHu66KgkK/view?usp=drive_link"
+                        download="cristian elias cruz flores.pdf">
+                        CV <i class="fa-solid fa-download"></i>
+                        <span class="overlay"></span>
+                    </a>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="contenido-skills">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="contenedor-skills">
+                        <div class="skill">
+                            <i class="fa-brands fa-html5"></i>
+                            <span>Html</span>
+                        </div>
+
+                        <div class="skill">
+                            <i class="fa-brands fa-square-js"></i>
+                            <span>JavaScrypt</span>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <span>Css</span>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-react"></i>
+                            <span>React.JS</span>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-node"></i>
+                            <span>Node.JS</span>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Secundaria</h4>
+                        <span class="casa">Escuela Secundaria Tecnica No. 24</span>
+                        <span class="fecha">2008 - 2011</span>
+                        <p>
+                            <strong>Domicilio:</strong> Calle Emiliano Zapata, San Juan Ixhuatepec,
+                            54180 Tlalnepantla de Baz, Méx
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Preparatoria</h4>
+                        <span class="casa">Colegio de Bachilleres Plantel 2: Cien Metros</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p><strong>Domicilio:</strong>Av. Sur de Los 100 Metros 600, Nueva
+                            Industrial Vallejo, Gustavo A. Madero, 07729 Ciudad de
+                            México, CDMX</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Universadad</h4>
+                        <span class="casa">Tecnologico de Estudios Superiores de Ecatepec</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p><strong>Domicilio:</strong>Mexico, Av. Tecnológico S/N, 55210
+                            Ecatepec de Morelos, Méx.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Centro de Cooperacion Academica Industria - TESE</span>
+                        <span class="fecha">Agosto - 2023</span>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Av.Tecnológico SN Col. Valle de Anahuac, 55210
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Teléfono: 50-002-300
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: ccai@tese.edu.mx
+                            </li>
+                        </ul>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Certificación Java</h4>
+                        <span class="casa">Udemy</span>
+                        <span class="fecha">Julio - 2021</span>
+                        <ul>
+                            <li>
+                                <p><strong>Nombre del Curso:</strong></p>Club Java Master: De Novato a Experto Java. +80
+                                hrs
+                            </li>
+                            <li>
+                                <p><strong>Duración:</strong>80 hrs</p>
+                            </li>
+                            <li>
+                                <p><strong>Profesor:</strong> Ing. Ubaldo Acosta</p>
+                            </li>
+                            <li>
+                                <p><strong>Plataforma:</strong> Udemy</p>
+                            </li>
+                        </ul>
+                        <h6>Certificado</h6>
+                        <a href="https://www.udemy.com/certificate/UC-40427592-91c3-4b60-a615-a20759667854/"><i
+                                class="fa-solid fa-link"></i></a>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Certificacion Web</h4>
+                        <span class="casa">Sololearn</span>
+                        <span class="fecha">Noviembre - 2023</span>
+                        <ul>
+                            <li>
+                                <p><strong>Nombre del Curso:</strong></p>Fundamentos de progrmación web
+                            </li>
+                            <li>
+                                <p><strong>Plataforma:</strong>Sololearn </p>
+                            </li>
+                        </ul>
+                        <h6>Certificado</h6>
+                        <a href="https://drive.google.com/file/d/13ijTBAGu9t_NCKzeAbFgQ2Q2M9riWwdZ/view?usp=drive_link"><i
+                                class="fa-solid fa-link"></i></a>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/Captura1.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Intefaz Quiosco Medico</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Captura2.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Chat Live</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Nicaragua 159, San Rafael Mza
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Telefono: 55-4609-1458
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: CrizCruz1400@gmail.com.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/cristian-elias-cruz-flores-5b4445209"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
